@@ -5,6 +5,12 @@ Currently there are no other tools to modify airport settings, and this is about
 
 This is loosely based on [airport-utils](https://launchpad.net/ubuntu/+source/airport-utils), but since that tool is a bit out of date and does not work correctly anymore (besides, it requires `JVM 1.5` to run), however it was a great place to start digging into protocol and understand how it works.
 
+## Installation
+
+```
+npm install --save node-airplane
+```
+
 ## Usage
 
 General Disclaimer - the API is not even 50% complete, and the code may not work as intended and might break your airport configuration (Mine is still fine, but who knows what can happen). It\`s best that this software is used on non critical hardware.
