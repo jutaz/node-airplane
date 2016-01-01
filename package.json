@@ -1,0 +1,20 @@
+{
+  "name": "airplane",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive ./test/"
+  },
+  "author": "Justas Brazauskas",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "mdns": "^2.2.10",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
